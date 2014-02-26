@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7847C500-319F-4446-A242-F63ACF1CA405</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Rendu1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>68979011-4479-4F34-8260-89F6E1614211</key>
+		<string>https://github.com/lanaabirached/Rendu1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Rendu1/Rendu1.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>68979011-4479-4F34-8260-89F6E1614211</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lanaabirached/Rendu1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>68979011-4479-4F34-8260-89F6E1614211</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68979011-4479-4F34-8260-89F6E1614211</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Rendu1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
