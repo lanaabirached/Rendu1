@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FA95BCAB18BDDCD2006D0272 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA95BCAA18BDDCD2006D0272 /* main.cpp */; };
 		FA95BCAD18BDDCD2006D0272 /* Rendu1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA95BCAC18BDDCD2006D0272 /* Rendu1.1 */; };
+		FA95BCB518BF3FF0006D0272 /* Ziphone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA95BCB418BF3FF0006D0272 /* Ziphone.cpp */; };
+		FA95BCB718BF4871006D0272 /* rendu1.c in Sources */ = {isa = PBXBuildFile; fileRef = FA95BCB618BF4871006D0272 /* rendu1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		FA95BCA718BDDCD2006D0272 /* Rendu1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Rendu1; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA95BCAA18BDDCD2006D0272 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FA95BCAC18BDDCD2006D0272 /* Rendu1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Rendu1.1; sourceTree = "<group>"; };
+		FA95BCB318BF3E22006D0272 /* Ziphone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ziphone.h; sourceTree = "<group>"; };
+		FA95BCB418BF3FF0006D0272 /* Ziphone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ziphone.cpp; sourceTree = "<group>"; };
+		FA95BCB618BF4871006D0272 /* rendu1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rendu1.c; sourceTree = "<group>"; };
+		FA95BCB818BF4879006D0272 /* rendu1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rendu1.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +67,21 @@
 			isa = PBXGroup;
 			children = (
 				FA95BCAA18BDDCD2006D0272 /* main.cpp */,
+				FA95BCB818BF4879006D0272 /* rendu1.h */,
+				FA95BCB618BF4871006D0272 /* rendu1.c */,
+				FA95BCB918BF489C006D0272 /* Ziphone */,
 				FA95BCAC18BDDCD2006D0272 /* Rendu1.1 */,
 			);
 			path = Rendu1;
+			sourceTree = "<group>";
+		};
+		FA95BCB918BF489C006D0272 /* Ziphone */ = {
+			isa = PBXGroup;
+			children = (
+				FA95BCB318BF3E22006D0272 /* Ziphone.h */,
+				FA95BCB418BF3FF0006D0272 /* Ziphone.cpp */,
+			);
+			name = Ziphone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +136,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA95BCAB18BDDCD2006D0272 /* main.cpp in Sources */,
+				FA95BCB718BF4871006D0272 /* rendu1.c in Sources */,
+				FA95BCB518BF3FF0006D0272 /* Ziphone.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +245,7 @@
 				FA95BCB218BDDCD2006D0272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,11 +8,20 @@
 
 #include <iostream>
 
+#include "Ziphone.h"
+
+using namespace std;
+
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Ziphone Vinney = Ziphone(1, 42, 5);
+    Ziphone Antoni = Ziphone();
+    
+    Ziphone Valou = Vinney + Antoni;
+    
+    cout << Vinney.getMass() << " + " << Antoni.getMass() << " = " << Valou.getMass() << endl;
+    
     return 0;
 }
 
