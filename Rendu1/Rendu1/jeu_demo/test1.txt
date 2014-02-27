@@ -1,0 +1,8 @@
+
+# Test 1
+# ***Game Loading: Error!***
+# Player#2: Pseudo is too long.
+
+Arthurus 0 0 0
+
+Sardanapale 0 0 0

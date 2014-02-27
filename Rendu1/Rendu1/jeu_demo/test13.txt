@@ -1,0 +1,16 @@
+#
+# Test 13
+# 
+# test pour vos nerfs: pouvez vous eliminer
+#     les 4 disques orange en un seul tour ?
+
+Max 0 100 1
+80 20 5
+
+Vic 0 100 4
+30 40 5
+50 40 5
+30 60 5
+60 60 5
+
+

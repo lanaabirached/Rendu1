@@ -8,12 +8,12 @@
 
 #include <iostream>
 
-#include "Ziphone.h"
-
 using namespace std;
 
 int main(int argc, const char * argv[])
 {
-
+    cout << argv[0] << endl;
+    
+    
 }
 

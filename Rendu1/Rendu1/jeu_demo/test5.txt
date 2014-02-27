@@ -1,0 +1,10 @@
+
+# Test 5
+# ***Game Loading: Error!***
+# Player#1: Missing disk.
+
+Arthur -10 20 2
+20 20 1
+
+Lancelot 10 30 1
+40 40 4

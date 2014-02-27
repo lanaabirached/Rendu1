@@ -31,6 +31,30 @@
 		FA95BCAC18BDDCD2006D0272 /* Rendu1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Rendu1.1; sourceTree = "<group>"; };
 		FA95BCB618BF4871006D0272 /* rendu1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rendu1.c; sourceTree = "<group>"; };
 		FA95BCB818BF4879006D0272 /* rendu1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rendu1.h; sourceTree = "<group>"; };
+		FA95BCBA18BF4CF2006D0272 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		FA95BCBB18BF4CF2006D0272 /* error.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = error.o; sourceTree = "<group>"; };
+		FA95BCBE18BF510D006D0272 /* jeu.x */ = {isa = PBXFileReference; lastKnownFileType = file; path = jeu.x; sourceTree = "<group>"; };
+		FA95BCBF18BF510D006D0272 /* test0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test0.txt; sourceTree = "<group>"; };
+		FA95BCC018BF510D006D0272 /* test1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test1.txt; sourceTree = "<group>"; };
+		FA95BCC118BF510D006D0272 /* test10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test10.txt; sourceTree = "<group>"; };
+		FA95BCC218BF510D006D0272 /* test11.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test11.txt; sourceTree = "<group>"; };
+		FA95BCC318BF510D006D0272 /* test12.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test12.txt; sourceTree = "<group>"; };
+		FA95BCC418BF510D006D0272 /* test13.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test13.txt; sourceTree = "<group>"; };
+		FA95BCC518BF510D006D0272 /* test14.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test14.txt; sourceTree = "<group>"; };
+		FA95BCC618BF510D006D0272 /* test15.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test15.txt; sourceTree = "<group>"; };
+		FA95BCC718BF510D006D0272 /* test16.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test16.txt; sourceTree = "<group>"; };
+		FA95BCC818BF510D006D0272 /* test17.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test17.txt; sourceTree = "<group>"; };
+		FA95BCC918BF510D006D0272 /* test18.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test18.txt; sourceTree = "<group>"; };
+		FA95BCCA18BF510D006D0272 /* test19.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test19.txt; sourceTree = "<group>"; };
+		FA95BCCB18BF510D006D0272 /* test2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test2.txt; sourceTree = "<group>"; };
+		FA95BCCC18BF510D006D0272 /* test3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test3.txt; sourceTree = "<group>"; };
+		FA95BCCD18BF510D006D0272 /* test4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test4.txt; sourceTree = "<group>"; };
+		FA95BCCE18BF510D006D0272 /* test5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test5.txt; sourceTree = "<group>"; };
+		FA95BCCF18BF510D006D0272 /* test6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test6.txt; sourceTree = "<group>"; };
+		FA95BCD018BF510D006D0272 /* test7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test7.txt; sourceTree = "<group>"; };
+		FA95BCD118BF510D006D0272 /* test8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test8.txt; sourceTree = "<group>"; };
+		FA95BCD218BF510D006D0272 /* test9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test9.txt; sourceTree = "<group>"; };
+		FA95BCD318BF510D006D0272 /* test_results_0-11.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test_results_0-11.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +88,43 @@
 			isa = PBXGroup;
 			children = (
 				FA95BCAA18BDDCD2006D0272 /* main.cpp */,
+				FA95BCBA18BF4CF2006D0272 /* error.h */,
+				FA95BCBB18BF4CF2006D0272 /* error.o */,
+				FA95BCBD18BF510D006D0272 /* jeu_demo */,
 				FA95BCB818BF4879006D0272 /* rendu1.h */,
 				FA95BCB618BF4871006D0272 /* rendu1.c */,
 				FA95BCAC18BDDCD2006D0272 /* Rendu1.1 */,
 			);
 			path = Rendu1;
+			sourceTree = "<group>";
+		};
+		FA95BCBD18BF510D006D0272 /* jeu_demo */ = {
+			isa = PBXGroup;
+			children = (
+				FA95BCBE18BF510D006D0272 /* jeu.x */,
+				FA95BCBF18BF510D006D0272 /* test0.txt */,
+				FA95BCC018BF510D006D0272 /* test1.txt */,
+				FA95BCC118BF510D006D0272 /* test10.txt */,
+				FA95BCC218BF510D006D0272 /* test11.txt */,
+				FA95BCC318BF510D006D0272 /* test12.txt */,
+				FA95BCC418BF510D006D0272 /* test13.txt */,
+				FA95BCC518BF510D006D0272 /* test14.txt */,
+				FA95BCC618BF510D006D0272 /* test15.txt */,
+				FA95BCC718BF510D006D0272 /* test16.txt */,
+				FA95BCC818BF510D006D0272 /* test17.txt */,
+				FA95BCC918BF510D006D0272 /* test18.txt */,
+				FA95BCCA18BF510D006D0272 /* test19.txt */,
+				FA95BCCB18BF510D006D0272 /* test2.txt */,
+				FA95BCCC18BF510D006D0272 /* test3.txt */,
+				FA95BCCD18BF510D006D0272 /* test4.txt */,
+				FA95BCCE18BF510D006D0272 /* test5.txt */,
+				FA95BCCF18BF510D006D0272 /* test6.txt */,
+				FA95BCD018BF510D006D0272 /* test7.txt */,
+				FA95BCD118BF510D006D0272 /* test8.txt */,
+				FA95BCD218BF510D006D0272 /* test9.txt */,
+				FA95BCD318BF510D006D0272 /* test_results_0-11.txt */,
+			);
+			path = jeu_demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

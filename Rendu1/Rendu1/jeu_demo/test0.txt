@@ -1,0 +1,7 @@
+
+# Test 0
+# ***Game Loading: Success!***
+
+Joueur1 0 0 0
+
+Joueur2 0 0 0
