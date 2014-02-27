@@ -4,16 +4,13 @@
 
 // Assign the sciper ids of your group members to the array below
 // i.e Replace the 11 and 12 by your sciper ids
-static int rendu1_sciper_ids[RENDU1_NB_GROUP_MEMBERS] = {11, 12};
+static int rendu1_sciper_ids[RENDU1_NB_GROUP_MEMBERS] = {234712, 236091};
 
 float rendu1_rayon_intersecte (float dx, float dy, float ux, float uy, 
 							   float cx, float cy, float r)
 {
-	/*
-	 * TODO: Implement the function body.
-	 * 		 Don't forget to change the return value.
-	 */
-	 return 9.0;
+	
+	return 9.0;
 }
 
 ///// DO NOT TOUCH THE PART BELOW! /////

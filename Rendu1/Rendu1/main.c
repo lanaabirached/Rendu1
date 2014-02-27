@@ -6,14 +6,9 @@
 //  Copyright (c) 2014 Lana macbook. All rights reserved.
 //
 
-#include <iostream>
-
-using namespace std;
+#include "Rendu1_jeu.h"
 
 int main(int argc, const char * argv[])
 {
-    cout << argv[0] << endl;
-    
-    
+	parseGameFile("jeu_demo/test13.txt");
 }
-
