@@ -13,7 +13,8 @@
 
 bubble* bubbles;
 
-bubble {
+bubble
+{
 	unsigned short size;
 	float x, y;
 };
