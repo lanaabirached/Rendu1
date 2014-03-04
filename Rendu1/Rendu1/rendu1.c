@@ -11,24 +11,26 @@ static int rendu1_sciper_ids[RENDU1_NB_GROUP_MEMBERS] = {234712, 236091};
 float rendu1_rayon_intersecte (float dx, float dy, float ux, float uy, 
 							   float cx, float cy, float r)
 {
+	// dc : vector between D and C, i : intersection point I,
+	// n  : normalized vector CI, w : 
     float dcx = 0, dcy = 0, ix = 0, iy = 0,nx = 0, ny = 0, wx = 0, wy = 0;
     float n_norme, s, v, d, du, un;
     
     dcx = cx-dx;
     dcy = cy-dy;
     
-    // s = u.DC
+    // s = u ⦁ DC
     s = ux*dcx + uy*dcy;
     
-    // v = u ^ DC
-    v = cx*dcy - cy*dcx;
+    // v = || u ^ DC ||
+    v = ux*dcy - uy*dcx;
     
-    if (s > 0 && -r < v < r)
+    if (s > 0 && v <= r)
     {
         du = dx*ux + dy*uy; // du = d.u
         un = ux*nx + uy*ny; // un = u.n
         
-        n_norme = sqrt((ix-cx)*(ix-cx) + (iy-cy)*(iy-cy));
+        n_norme = sqrt(pow(ix-cx, 2) + pow(iy-cy, 2));
         
         nx = (float)((ix - cx)/n_norme);
         ny = (float)((iy - cy)/n_norme);
@@ -40,8 +42,8 @@ float rendu1_rayon_intersecte (float dx, float dy, float ux, float uy,
         
         wx = ux - 2*un*nx;
         wy = uy - 2*un*ny;
-        
-        return ix, iy;
+        		
+        return d;
     }
 	
     else
