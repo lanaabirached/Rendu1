@@ -9,18 +9,8 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-#define bubble struct bubble
-
-bubble* bubbles;
-
-bubble
-{
-	unsigned short size;
-	float x, y;
-};
-
-void skipLine(FILE* file);
-
 void parseGameFile(char* filePath);
+
+void skipLine(FILE* gameFile);
 
 #endif

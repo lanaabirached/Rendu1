@@ -10,5 +10,5 @@
 
 int main(int argc, const char * argv[])
 {
-	parseGameFile("jeu_demo/test13.txt");
+	parseGameFile(argv[1]);
 }

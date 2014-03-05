@@ -60,11 +60,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "salut"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "hello"
+            argument = "/Users/macbook/Desktop/jeu_demo_deliverables/jeu_demo/test13.txt"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
