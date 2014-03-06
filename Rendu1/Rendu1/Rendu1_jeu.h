@@ -9,7 +9,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-void parseGameFile(char* filePath);
+bool parseGameFile(char* filePath);
 
 void skipLine(FILE* gameFile);
 
