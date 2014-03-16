@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3CAD2C18D360B00050445A /* V2D.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CAD2B18D360B00050445A /* V2D.c */; };
+		4C3CAD3218D362010050445A /* mac_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CAD3118D362010050445A /* mac_error.c */; };
 		4CBC9FF018BF941300672DFE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC9FEB18BF941300672DFE /* main.c */; };
-		4CBC9FF118BF941300672DFE /* Rendu1_jeu.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC9FEC18BF941300672DFE /* Rendu1_jeu.c */; };
+		4CBC9FF118BF941300672DFE /* jeu.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC9FEC18BF941300672DFE /* jeu.c */; };
 		4CBC9FF218BF941300672DFE /* rendu1.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC9FED18BF941300672DFE /* rendu1.c */; };
 /* End PBXBuildFile section */
 
@@ -25,10 +27,36 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C3CAD2A18D360A70050445A /* V2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2D.h; sourceTree = "<group>"; };
+		4C3CAD2B18D360B00050445A /* V2D.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = V2D.c; sourceTree = "<group>"; };
+		4C3CAD3018D361EC0050445A /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = error.h; path = Rendu1/error.h; sourceTree = "<group>"; };
+		4C3CAD3118D362010050445A /* mac_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mac_error.c; sourceTree = "<group>"; };
+		4CB1963B18CCB36400ED6850 /* jeu.x */ = {isa = PBXFileReference; lastKnownFileType = file; path = jeu.x; sourceTree = "<group>"; };
+		4CB1963C18CCB36400ED6850 /* test0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test0.txt; sourceTree = "<group>"; };
+		4CB1963D18CCB36400ED6850 /* test1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1.txt; sourceTree = "<group>"; };
+		4CB1963E18CCB36400ED6850 /* test10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test10.txt; sourceTree = "<group>"; };
+		4CB1963F18CCB36400ED6850 /* test11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test11.txt; sourceTree = "<group>"; };
+		4CB1964018CCB36400ED6850 /* test12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test12.txt; sourceTree = "<group>"; };
+		4CB1964118CCB36400ED6850 /* test13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test13.txt; sourceTree = "<group>"; };
+		4CB1964218CCB36400ED6850 /* test14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test14.txt; sourceTree = "<group>"; };
+		4CB1964318CCB36400ED6850 /* test15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test15.txt; sourceTree = "<group>"; };
+		4CB1964418CCB36400ED6850 /* test16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test16.txt; sourceTree = "<group>"; };
+		4CB1964518CCB36400ED6850 /* test17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test17.txt; sourceTree = "<group>"; };
+		4CB1964618CCB36400ED6850 /* test18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test18.txt; sourceTree = "<group>"; };
+		4CB1964718CCB36400ED6850 /* test19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test19.txt; sourceTree = "<group>"; };
+		4CB1964818CCB36400ED6850 /* test2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2.txt; sourceTree = "<group>"; };
+		4CB1964918CCB36400ED6850 /* test3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test3.txt; sourceTree = "<group>"; };
+		4CB1964A18CCB36400ED6850 /* test4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test4.txt; sourceTree = "<group>"; };
+		4CB1964B18CCB36400ED6850 /* test5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test5.txt; sourceTree = "<group>"; };
+		4CB1964C18CCB36400ED6850 /* test6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test6.txt; sourceTree = "<group>"; };
+		4CB1964D18CCB36400ED6850 /* test7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test7.txt; sourceTree = "<group>"; };
+		4CB1964E18CCB36400ED6850 /* test8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test8.txt; sourceTree = "<group>"; };
+		4CB1964F18CCB36400ED6850 /* test9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test9.txt; sourceTree = "<group>"; };
+		4CB1965018CCB36400ED6850 /* test_results_0-11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test_results_0-11.txt"; sourceTree = "<group>"; };
 		4CBC9FEB18BF941300672DFE /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = Rendu1/main.c; sourceTree = "<group>"; };
-		4CBC9FEC18BF941300672DFE /* Rendu1_jeu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Rendu1_jeu.c; path = Rendu1/Rendu1_jeu.c; sourceTree = "<group>"; };
+		4CBC9FEC18BF941300672DFE /* jeu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jeu.c; path = Rendu1/jeu.c; sourceTree = "<group>"; };
 		4CBC9FED18BF941300672DFE /* rendu1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rendu1.c; path = Rendu1/rendu1.c; sourceTree = "<group>"; };
-		4CBC9FEE18BF941300672DFE /* Rendu1_jeu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rendu1_jeu.h; path = Rendu1/Rendu1_jeu.h; sourceTree = "<group>"; };
+		4CBC9FEE18BF941300672DFE /* jeu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jeu.h; path = Rendu1/jeu.h; sourceTree = "<group>"; };
 		4CBC9FEF18BF941300672DFE /* rendu1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rendu1.h; path = Rendu1/rendu1.h; sourceTree = "<group>"; };
 		FA41994718C65E670099E220 /* test_results_0-11.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = "test_results_0-11.txt"; path = "../../../../jeu_demo_deliverables/jeu_demo/test_results_0-11.txt"; sourceTree = "<group>"; };
 		FA41994818C65E670099E220 /* test0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = test0.txt; path = ../../../../jeu_demo_deliverables/jeu_demo/test0.txt; sourceTree = "<group>"; };
@@ -65,6 +93,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CB1963A18CCB36400ED6850 /* jeu_demo */ = {
+			isa = PBXGroup;
+			children = (
+				4CB1963B18CCB36400ED6850 /* jeu.x */,
+				4CB1963C18CCB36400ED6850 /* test0.txt */,
+				4CB1963D18CCB36400ED6850 /* test1.txt */,
+				4CB1963E18CCB36400ED6850 /* test10.txt */,
+				4CB1963F18CCB36400ED6850 /* test11.txt */,
+				4CB1964018CCB36400ED6850 /* test12.txt */,
+				4CB1964118CCB36400ED6850 /* test13.txt */,
+				4CB1964218CCB36400ED6850 /* test14.txt */,
+				4CB1964318CCB36400ED6850 /* test15.txt */,
+				4CB1964418CCB36400ED6850 /* test16.txt */,
+				4CB1964518CCB36400ED6850 /* test17.txt */,
+				4CB1964618CCB36400ED6850 /* test18.txt */,
+				4CB1964718CCB36400ED6850 /* test19.txt */,
+				4CB1964818CCB36400ED6850 /* test2.txt */,
+				4CB1964918CCB36400ED6850 /* test3.txt */,
+				4CB1964A18CCB36400ED6850 /* test4.txt */,
+				4CB1964B18CCB36400ED6850 /* test5.txt */,
+				4CB1964C18CCB36400ED6850 /* test6.txt */,
+				4CB1964D18CCB36400ED6850 /* test7.txt */,
+				4CB1964E18CCB36400ED6850 /* test8.txt */,
+				4CB1964F18CCB36400ED6850 /* test9.txt */,
+				4CB1965018CCB36400ED6850 /* test_results_0-11.txt */,
+			);
+			name = jeu_demo;
+			path = Rendu1/jeu_demo;
+			sourceTree = "<group>";
+		};
 		FA41994618C65E550099E220 /* tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +158,13 @@
 				4CBC9FEB18BF941300672DFE /* main.c */,
 				4CBC9FEF18BF941300672DFE /* rendu1.h */,
 				4CBC9FED18BF941300672DFE /* rendu1.c */,
-				4CBC9FEE18BF941300672DFE /* Rendu1_jeu.h */,
-				4CBC9FEC18BF941300672DFE /* Rendu1_jeu.c */,
+				4CBC9FEE18BF941300672DFE /* jeu.h */,
+				4CBC9FEC18BF941300672DFE /* jeu.c */,
+				4C3CAD3018D361EC0050445A /* error.h */,
+				4C3CAD3118D362010050445A /* mac_error.c */,
+				4C3CAD2A18D360A70050445A /* V2D.h */,
+				4C3CAD2B18D360B00050445A /* V2D.c */,
+				4CB1963A18CCB36400ED6850 /* jeu_demo */,
 				FA41994618C65E550099E220 /* tests */,
 			);
 			sourceTree = "<group>";
@@ -166,8 +229,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CBC9FF018BF941300672DFE /* main.c in Sources */,
-				4CBC9FF118BF941300672DFE /* Rendu1_jeu.c in Sources */,
+				4CBC9FF118BF941300672DFE /* jeu.c in Sources */,
 				4CBC9FF218BF941300672DFE /* rendu1.c in Sources */,
+				4C3CAD2C18D360B00050445A /* V2D.c in Sources */,
+				4C3CAD3218D362010050445A /* mac_error.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

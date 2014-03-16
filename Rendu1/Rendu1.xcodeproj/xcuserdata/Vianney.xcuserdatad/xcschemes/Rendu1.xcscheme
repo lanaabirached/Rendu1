@@ -56,6 +56,12 @@
             ReferencedContainer = "container:Rendu1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "/Users/Vianney/Xcode/Rendu1/Rendu1/Rendu1/jeu_demo/test10.txt"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

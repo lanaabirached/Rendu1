@@ -1,8 +1,0 @@
-
-# Test 2
-# ***Game Loading: Error!***
-# Player#2: Energy is negative.
-
-Arthur -10 20 0
-
-Lancelot 10 -30 0

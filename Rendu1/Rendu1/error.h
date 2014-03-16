@@ -24,7 +24,6 @@
 	 ERROR_PLAYER2
  } PlayerId;
  
- 
  /*
   * Call this function if the pseudo of a player has more than eight 
   * characters.
@@ -33,7 +32,7 @@
   * player_id: The id of the player who has the violation. Use given enum 
   * 		   PlayerId (ERROR_PLAYER1, ERROR_PLAYER2).
   */
- void error_pseudo_is_too_long(PlayerId player_id);
+ void error_pseudo_is_too_long(PlayerId player_id);								//
  
  
  /*
@@ -43,7 +42,7 @@
   * player_id: the id of the player who has the violation. Use given enum 
   * 		   PlayerId (ERROR_PLAYER1, ERROR_PLAYER2).
   */
- void error_energy_is_negative(PlayerId player_id);
+ void error_energy_is_negative(PlayerId player_id);								//
  
  /*
   * Call this function if the energy of a player is greater than MAX_ENERGY.
@@ -52,17 +51,17 @@
   * player_id: the id of the player who has the violation. Use given enum 
   * 		   PlayerId (ERROR_PLAYER1, ERROR_PLAYER2).
   */
- void error_energy_is_too_big(PlayerId player_id);
+ void error_energy_is_too_big(PlayerId player_id);								//
 
 
  /*
-  * Call this function if a player has more disks than nb_disques
+  * Call this function if a player has more disks than nb_disques				
   * 
   * INPUT(S):
   * player_id: The id of the player who has the violation. Use given enum 
   * 		   PlayerId (ERROR_PLAYER1, ERROR_PLAYER2). 
   */ 
- void error_too_many_disks(PlayerId player_id);
+ void error_too_many_disks(PlayerId player_id);									
  
  
  /*
@@ -72,7 +71,7 @@
   * player_id: The id of the player who has the violation. Use given enum 
   * 		   PlayerId (ERROR_PLAYER1, ERROR_PLAYER2). 
   */
- void error_missing_disk(PlayerId player_id);
+ void error_missing_disk(PlayerId player_id);									
  
  
  /*
@@ -82,8 +81,8 @@
   * 		    PlayerId (ERROR_PLAYER1, ERROR_PLAYER2).
   * disk_index: The index of the disk. It starts from zero for each player.
   */
- void error_disk_is_out_of_boundaries(PlayerId player_id, 
-									  int disk_index);
+ void error_disk_is_out_of_boundaries(PlayerId player_id,						
+									  int disk_index);							//
 		
 									  
  /*
@@ -103,13 +102,13 @@
  void error_disks_are_in_contact(PlayerId disk1_owner_id, 
 								 int disk1_index,
 								 PlayerId disk2_owner_id, 
-								 int disk2_index);
+								 int disk2_index);								//
 
 
  /*
   * Call this function if there is no error in the input file.
   */					 
- void error_success(void);
+ void error_success(void);														//
  
  
  #endif
